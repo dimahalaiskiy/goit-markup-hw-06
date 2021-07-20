@@ -641,6 +641,7 @@ ul,ol {
     border-radius: 4px;
     padding: 15px;
     margin-right: 12px;
+    color: #ffffff;
 }
 .footer-form-mail:focus {
     outline: none;
@@ -670,7 +671,6 @@ ul,ol {
     margin-left: 10px;
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 /******* END FOOTER *******/
