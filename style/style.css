@@ -676,6 +676,8 @@ ul,ol {
 /******* END FOOTER *******/
 
 /******* BACKDROP *******/
+
+
 .backdrop-main-button {
     position: fixed;
     top: 0;
@@ -683,17 +685,14 @@ ul,ol {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
-
     opacity: 1;
     visibility: visible;
-
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-main-button {
     position: absolute;
     width: 528px;
-    height: 581px;
     top: 50%;
     left: 50%;
     background-color: #FFFFFF;
@@ -855,12 +854,12 @@ ul,ol {
     cursor: pointer;
     width: 16px;
     height: 15px;
-    background-image: url(/img/checkbox/icon-checkbox.svg);
+    background-image: url(./img/checkbox/icon-checkbox.svg);
     transition: background-image 0.250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-form-input-checkbox:checked + .modal-form-checkbox-label::before {
-    background-image: url(/img/checkbox/icon-checkbox-check.svg);
+    background-image: url(./img/checkbox/icon-checkbox-check.svg);
 }
 
 .modal-checkbox-link-color {
