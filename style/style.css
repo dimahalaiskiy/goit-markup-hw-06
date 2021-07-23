@@ -854,11 +854,11 @@ ul,ol {
     cursor: pointer;
     width: 16px;
     height: 15px;
-    background-image: url(../img/checkbox/icon-checkbox.svg);
+    background-image: url("../img/checkbox/icon-checkbox.svg");
 }
 
 .modal-form-input-checkbox:checked + .modal-form-checkbox-label::before {
-    background-image: url(../img/checkbox/icon-checkbox-check.svg);
+    background-image: url("../img/checkbox/icon-checkbox-check.svg");
 }
 
 .modal-checkbox-link-color {
