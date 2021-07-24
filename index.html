@@ -393,7 +393,7 @@
             <form class="modal-form">
                 <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
                 <label class="modal-form-field">
-                    Имя
+                    <p class="modal-form-field-paragraph">Имя</p>
                     <span class="backdrop-icon-position">
                     <input class="modal-form-input" type="text" name="user-name" required minlength="2" pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Имя должно содержать символы кирилицы или латинского алфавита">
                     <a href="#" class="backdrop-icon-links">
@@ -404,7 +404,7 @@
                     </span>
                 </label>
                 <label class="modal-form-field">
-                    Телефон
+                    <p class="modal-form-field-paragraph">Телефон</p>
                 <span class="backdrop-icon-position">
                     <input class="modal-form-input" type="tel" name="user-tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="063-000-00-00">
                     <a href="#" class="backdrop-icon-links">
@@ -412,10 +412,10 @@
                         <use href="img/icons.svg#icon-phone-form"></use>
                     </svg>
                     </a>
-                    </span>
+                </span>
                 </label>
                 <label class="modal-form-field">
-                    Почта
+                    <p class="modal-form-field-paragraph">Почта</p>
                 <span class="backdrop-icon-position">
                     <input class="modal-form-input" type="email" name="user-mail" required>
                     <a href="#" class="backdrop-icon-links">
@@ -423,15 +423,16 @@
                         <use href="img/icons.svg#icon-email-form"></use>
                     </svg>
                     </a>
-                    </span>
+                </span>
                 </label>
                 <label сlass="modal-form-field">
-                    <span class="modal-textarea-head">Комментарий</span>
+                    <p class="modal-textarea-head">Комментарий</p>
                     <textarea class="modal-form-textarea" name="user-comments" placeholder="Введите текст"></textarea>
                 </label>
                     <input class="modal-form-input-checkbox visually-hidden" type="checkbox" id="modal-checkbox">
                     <label class="modal-form-checkbox-label" for="modal-checkbox">
-                        <span class="modal-checkbox-text-position">Соглашаюсь с рассылкой и принимаю&nbsp;</span><a class="modal-checkbox-link-color" href="#">Условия договора</a>
+                        <span class="modal-checkbox-text-position">Соглашаюсь с рассылкой и принимаю&nbsp;
+                        </span><a class="modal-checkbox-link-color" href="#">Условия договора</a>
                     </label>
                 <button class="btn-style modal-form-btn" type="submit" >Отправить</button>
             </form>
